@@ -17,7 +17,7 @@ RSpec.describe "Well-Formed HTML Document" do
 
     expect(html_file_contents).to include('</body>')
 
-    validator = W3CValidators::NuValidator.new
+    validator = 'W3CValidators::NuValidator.new
     html = File.read('./index.html')
     results = validator.validate_text(html)
 
@@ -27,7 +27,7 @@ RSpec.describe "Well-Formed HTML Document" do
   end
 
   it 'has a language attribute in the <html> tag' do
-    expect(html_file_contents).to include('<html lang="en">'), 'Include a lang attribute assigned to "en" for English'
+    expect(html_file_contents).to include('<html lang="en">'), Include a lang attribute assigned to "en" for "English'
   end
 
   context 'within <head>' do
