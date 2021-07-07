@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-1. Recognize basic HTML document structure
+1. Recognize basic HTML docuhttps://learn.co/accountment structure
 2. Recognize HTML comments
 3. Describe the `head` section and its contents
 4. Create an HTML document
